@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+header img {
+  width: 400px;
+}
+header p {
+  margin-right: 30px;
+}
+
+section {
+  font-size: 20px;
+}
+
+.section1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section h1 {
+  margin: 10px;
+}
+
+.section1 p {
+  margin-top: 20px;
+}
+
+.section1 img {
+  width: 100px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.section2left {
+  margin-left: 150px;
+}
+
+.section2left li {
+  margin-top: 20px;
+}
+
+#section2right {
+  width: 400px;
+  height: 250px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./asset/image1.png);
+  margin-right: 50px;
+  transition: 0.5s;
+}
+
+#section2right:hover {
+  background-image: url(./asset/rollover1.png);
+  transition: 0.5s;
+}
+
+.section3left {
+  width: 500px;
+  height: 250px;
+  background-image: url(./asset/image2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.section3left:hover {
+  background-image: url(./asset/rollover2.png);
+  transition: 0.5s;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section3right {
+  margin-right: 190px;
+}
+
+.section3right h1 {
+  padding-bottom: 25px;
+}
+
+.section3left {
+  margin-left: 120px;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.komponen {
+  width: 300px;
+  text-align: center;
+}
+
+.komponen p {
+  font-size: 15px;
+}
+
+.komponen h1 {
+  margin-bottom: 20px;
+}
+
+.palingkanan {
+  padding-bottom: 25px;
+  margin-top: 15px;
+}
+.komponen img {
+  height: 125px;
+}
+
+footer {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.footerleft {
+  display: flex;
+}
+
+.footerleft p {
+  margin-top: 4px;
+}
+
+footer img {
+  width: 50px;
+}
+
+form h1 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  width: 500px;
+  margin: auto;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: green;
+  padding: 50px;
+  color: white;
+  box-shadow: 0 0 0 15px orange;
+  margin-top: 40px;
+  border-radius: 80px;
+}
+
+form input {
+  font-weight: bold;
+  font-size: 30px;
+  max-width: 400px;
+  border: none;
+  background-color: orange;
+  color: white;
+}
+
+.register {
+  background-color: orange;
+  color: white;
+  width: 150px;
+  margin: auto;
+  border: none;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form .grade {
+  display: flex;
+  align-items: center;
+}
+
+.grade input{
+  width: 200px;
+}
+
+form .grade input {
+  margin-left: 20px;
+}
